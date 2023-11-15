@@ -1,0 +1,11 @@
+:root {
+    --primary-dark: hsl(158, 36%, 37%);
+    --primary-bright: hsl(30, 38%, 92%);
+
+    --neutral-dark: hsl(212, 21%, 14%);
+    --neutral-medium: hsl(228, 12%, 48%);
+    --neutral-bright: hsl(0, 0%, 100%);
+
+    --font-1: 'Montserrat', sans-serif;
+    --font-2: 'Fraunces', serif;
+}

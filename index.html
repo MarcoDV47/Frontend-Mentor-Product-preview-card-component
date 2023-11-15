@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet">
+   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   <link rel="stylesheet" href="./src/css/reset.css">
+   <link rel="stylesheet" href="./src/css/variables.css">
+   <link rel="stylesheet" href="./src/css/style.css">
+   <link rel="stylesheet" href="./src/css/responsive.css">
+
+   <title>Frontend Mentor | Product preview card component</title>
+
+</head>
+
+<body>
+
+   <main class="container">
+      <div class="product-card">
+         <picture>
+            <source srcset="./src/images/image-product-mobile.jpg" media="(max-width: 645px)">
+            <img src="./src/images/image-product-desktop.jpg" alt="Product Image" class="product-picture">
+         </picture>
+         <div class="product-info">
+            <h6 class="product-type">Perfume</h6>
+
+            <h2 class="product-name">Gabrielle Essence Eau De Parfum</h2>
+
+            <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+               Perfumer-Creator for the House of CHANEL.</p>
+            <div class="prices">
+               <h3 class="price-big">$149.99</h3>
+               <p class="price-old">$169.99</p>
+            </div>
+            <button class="cart-btn">
+               <p class="btn-text">Add to Cart</p>
+            </button>
+         </div>
+      </div>
+      <div class="attribution">
+         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+         Coded by <a href="https://www.frontendmentor.io/profile/MarcoDV47" target="_blank">MarcoDV</a>.
+      </div>
+   </main>
+</body>
+
+</html>
