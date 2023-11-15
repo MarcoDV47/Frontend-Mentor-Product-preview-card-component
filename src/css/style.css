@@ -87,15 +87,16 @@
     cursor: pointer;
 }
 
-.product-card .cart-btn .btn-text {
+.product-card .cart-btn{
     font-family: var(--font-1);
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.product-card .cart-btn .btn-text::before {
+.product-card .cart-btn::before {
     content: '';
     background: url(../images/icon-cart.svg) no-repeat center;
     height: 15px;
